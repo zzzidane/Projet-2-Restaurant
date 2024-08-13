@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/*# sourceMappingURL=index.css.map */
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: serif;
-}
-
 .header {
   background-image: url("icones/fond.jpg");
   background-size: cover;
@@ -55,6 +48,12 @@ body, html {
   font-size: 18px;
   margin-bottom: 40px;
   color: #fff;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
 }
 
 /* Deuxième section */
@@ -287,4 +286,4 @@ button {
   text-decoration: none;
   transform: translate3d(0, 0, 0);
   transition: all 0.3s;
-}
+}/*# sourceMappingURL=index.css.map */

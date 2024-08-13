@@ -1,0 +1,42 @@
+/* Deuxième section */
+.container {
+    width: 100%;
+    margin: 0 auto;
+  
+    .about-us {
+      text-align: center;
+      padding: 50px 0;
+  
+      .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+  
+        img {
+          max-width: 50%;
+          height: auto;
+          border-radius: 0px;
+        }
+  
+        .about-text {
+          max-width: 600px;
+  
+          h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+          }
+  
+          h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+  
+          p {
+            font-size: 16px;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }

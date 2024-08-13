@@ -1,0 +1,62 @@
+/* Troisième section */
+.featured-dishes {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  
+    h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  
+    h3 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+  
+    .dishes-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+  
+      .dish-item {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-width: 300px;
+        text-align: left;
+  
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-bottom: 15px;
+        }
+  
+        h4 {
+          font-size: 18px;
+          margin-bottom: 10px;
+          color: #d4af37;
+        }
+  
+        h5 {
+          font-size: 22px;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 14px;
+          line-height: 1.5;
+          margin-bottom: 20px;
+        }
+  
+        .price {
+          font-size: 20px;
+          font-weight: bold;
+          color: #d4af37;
+        }
+      }
+    }
+  }
